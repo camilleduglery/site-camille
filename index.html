@@ -1,0 +1,550 @@
+<!doctype html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <title>Camille Reyt-Duglery · Métrologie</title>
+  <meta name="description" content="Camille Reyt-Duglery, étudiante en double cursus CITISE (Télécom Saint-Étienne) et BUT Mesures Physiques. Recherche un stage de 11 semaines en métrologie, physico-chimie, optique ou matériaux à partir du 12 avril 2027.">
+  <meta name="theme-color" content="#FCF4F2" media="(prefers-color-scheme: light)">
+  <meta name="theme-color" content="#0E1C19" media="(prefers-color-scheme: dark)">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://camille-reyt-duglery.github.io" data-site="url">
+  <meta property="og:title" content="Camille Reyt-Duglery · Métrologie">
+  <meta property="og:description" content="Stage de 11 semaines en métrologie, physico-chimie, optique ou matériaux, à partir du 12 avril 2027.">
+  <meta property="og:image" content="https://camille-reyt-duglery.github.io/assets/og.png" data-site-img>
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
+  <meta name="twitter:card" content="summary_large_image">
+  <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,300..700;1,9..144,300..600&family=DM+Sans:ital,opsz,wght@0,9..40,400..700;1,9..40,400&family=Caveat:wght@500;600&family=Pinyon+Script&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+  <script>document.documentElement.classList.add('js');try{var t=localStorage.getItem('crd-theme');if(t)document.documentElement.dataset.theme=t;}catch(e){}</script>
+</head>
+<body>
+
+  <!-- Intro : le monogramme se dessine -->
+  <div class="intro" aria-hidden="true">
+    <svg class="intro__mark" viewBox="0 0 240 120">
+      <text x="120" y="78" text-anchor="middle">C·R·D</text>
+      <path d="M40 98 C 90 92, 150 102, 200 94"/>
+    </svg>
+  </div>
+
+  <div class="progress" aria-hidden="true"><span></span></div>
+
+  <header class="nav">
+    <div class="nav__inner">
+      <a class="nav__brand" href="#accueil" aria-label="Camille Reyt-Duglery, haut de page">
+        <span class="monogram" aria-hidden="true">C</span>
+        <span>Camille Reyt-Duglery</span>
+      </a>
+      <nav class="nav__links" aria-label="Sections">
+        <a href="#parcours" data-i18n="nav.parcours">Parcours</a>
+        <a href="#constat" data-i18n="nav.constat">Constat</a>
+        <a href="#projets" data-i18n="nav.projets">Projets</a>
+        <a href="#competences" data-i18n="nav.competences">Compétences</a>
+        <a href="#contact" data-i18n="nav.contact">Contact</a>
+      </nav>
+      <div class="nav__actions">
+        <div class="lang" role="group" aria-label="Langue / Language">
+          <button type="button" data-lang="fr" aria-pressed="true">FR</button>
+          <button type="button" data-lang="en" aria-pressed="false">EN</button>
+        </div>
+        <button class="icon-btn" type="button" data-theme-toggle aria-label="Changer de thème">
+          <svg class="i-sun" viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="4.2"/><path d="M12 2.5v2.2M12 19.3v2.2M2.5 12h2.2M19.3 12h2.2M5.3 5.3l1.6 1.6M17.1 17.1l1.6 1.6M5.3 18.7l1.6-1.6M17.1 6.9l1.6-1.6"/></svg>
+          <svg class="i-moon" viewBox="0 0 24 24" aria-hidden="true"><path d="M20 14.5A8 8 0 0 1 9.5 4a8 8 0 1 0 10.5 10.5Z"/></svg>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <main>
+
+    <!-- ===================== Accueil ===================== -->
+    <section class="hero" id="accueil">
+      <div class="hero__inner">
+        <div class="hero__text">
+          <p class="eyebrow reveal" data-i18n="hero.eyebrow">Télécom Saint-Étienne · BUT Mesures Physiques</p>
+          <h1 class="hero__title reveal">
+            <span class="hero__first sign">Camille<svg class="sign__line" viewBox="0 0 200 14" preserveAspectRatio="none" aria-hidden="true"><path d="M4 9 C 50 3, 120 13, 196 5"/></svg></span>
+            <span class="hero__last">Reyt-Duglery</span>
+          </h1>
+          <p class="hero__role reveal" data-i18n="hero.role">Future ingénieure · métrologie, optique, matériaux</p>
+          <p class="hero__lead reveal" data-i18n="hero.lead">Étudiante en deuxième année du double cursus <strong>CITISE</strong> et <strong>BUT Mesures Physiques</strong>, je me forme à la métrologie et à l'instrumentation. Rigoureuse, curieuse et créative, j'aime autant comprendre un phénomène que le rendre clair pour les autres.</p>
+          <div class="hero__cta reveal">
+            <a class="btn btn--primary" href="assets/CV_Reyt-Duglery_Camille.pdf" download>
+              <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 4v11m0 0 4.5-4.5M12 15l-4.5-4.5M5 19.5h14"/></svg>
+              <span data-i18n="hero.cv">Télécharger mon CV</span>
+            </a>
+            <a class="btn btn--ghost" href="#contact" data-i18n="hero.contact">Me contacter</a>
+          </div>
+        </div>
+
+        <figure class="portrait reveal">
+          <div class="portrait__frame">
+            <img src="assets/camille.jpg" width="600" height="600" alt="Portrait de Camille Reyt-Duglery" data-i18n-alt="hero.alt">
+          </div>
+          <svg class="portrait__scribble draw" viewBox="0 0 100 100" aria-hidden="true">
+            <path d="M52 3.5 C 80 3, 97.5 24, 97 51 C 96.5 79, 74 97.5, 47 96.5 C 20 95.5, 2.5 75, 3.5 48 C 4.5 22, 24 4, 57 5.5"/>
+          </svg>
+          <figcaption class="portrait__note">
+            <svg class="draw" viewBox="0 0 60 40" aria-hidden="true"><path d="M4 34 C 20 31, 40 22, 54 6"/><path d="M54 6 L 44 9 M54 6 L 52 16"/></svg>
+            <span data-i18n="hero.note">disponible le 12 avril 2027</span>
+          </figcaption>
+        </figure>
+      </div>
+
+      <div class="band reveal">
+        <p class="band__main" data-i18n="hero.band">Recherche un stage de <strong>11 semaines</strong> à partir du <strong>12 avril 2027</strong></p>
+        <p class="band__sub" data-i18n="hero.domains">Métrologie · Physico-chimie · Optique · Matériaux</p>
+      </div>
+
+      <ul class="facts">
+        <li class="reveal"><span class="facts__k" data-i18n="fact.1k">Mention Très Bien</span><span class="facts__v" data-i18n="fact.1v">Baccalauréat, section européenne</span></li>
+        <li class="reveal"><span class="facts__k" data-i18n="fact.2k">Anglais bilingue</span><span class="facts__v" data-i18n="fact.2v">Certification Cambridge</span></li>
+        <li class="reveal"><span class="facts__k" data-i18n="fact.3k">LabVIEW</span><span class="facts__v" data-i18n="fact.3v">Acquisition et traitement de signaux</span></li>
+      </ul>
+    </section>
+
+    <!-- Ruban -->
+    <div class="ribbon" aria-hidden="true">
+      <div class="ribbon__track">
+        <span data-i18n="ribbon">Métrologie <i>✦</i> Étalonnage <i>✦</i> Incertitudes <i>✦</i> Instrumentation <i>✦</i> Optique <i>✦</i> Matériaux <i>✦</i> Physico-chimie <i>✦</i> LabVIEW <i>✦</i></span>
+        <span data-i18n="ribbon">Métrologie <i>✦</i> Étalonnage <i>✦</i> Incertitudes <i>✦</i> Instrumentation <i>✦</i> Optique <i>✦</i> Matériaux <i>✦</i> Physico-chimie <i>✦</i> LabVIEW <i>✦</i></span>
+      </div>
+    </div>
+
+    <!-- ===================== À propos ===================== -->
+    <section class="section about" id="apropos">
+      <div class="wrap about__grid">
+        <header class="sec-head reveal">
+          <span class="sec-num">01</span>
+          <h2 class="sec-title" data-i18n="about.title">À propos</h2>
+        </header>
+        <p class="about__text reveal" data-i18n="about.text">Je développe à Télécom Saint-Étienne des compétences en ingénierie des systèmes, en analyse de données et en instrumentation. <span class="mark">Rigoureuse<svg viewBox="0 0 100 12" preserveAspectRatio="none" aria-hidden="true"><path d="M2 8 C 28 3, 62 11, 98 5"/></svg></span> et <span class="mark">curieuse<svg viewBox="0 0 100 12" preserveAspectRatio="none" aria-hidden="true"><path d="M2 7 C 30 10, 66 3, 98 7"/></svg></span>, j'aime les environnements techniques exigeants et le <span class="mark">travail en équipe<svg viewBox="0 0 100 12" preserveAspectRatio="none" aria-hidden="true"><path d="M2 8 C 34 4, 64 10, 98 5"/></svg></span>. Mon objectif&#8239;: rejoindre un secteur industriel innovant, contribuer à des projets technologiques à forte valeur ajoutée et continuer à grandir en tant que future ingénieure.</p>
+      </div>
+    </section>
+
+    <!-- ===================== Ce que j'apporte ===================== -->
+    <section class="section bring" id="apport">
+      <div class="wrap">
+        <header class="sec-head reveal">
+          <span class="sec-num">02</span>
+          <h2 class="sec-title" data-i18n="br.title">Ce que j'apporte</h2>
+        </header>
+        <div class="bring__grid">
+          <article class="bring__item reveal">
+            <span class="bring__n">1</span>
+            <svg class="pict draw" viewBox="0 0 64 64" aria-hidden="true">
+              <path d="M32 6 A 26 26 0 1 0 32.1 6"/>
+              <path d="M32 16 A 16 16 0 1 0 32.1 16"/>
+              <path d="M32 27 A 5 5 0 1 0 32.1 27"/>
+              <path d="M52 12 L 35 29 M52 12 L 51 19 M52 12 L 45 13"/>
+            </svg>
+            <h3 class="card__title" data-i18n="br.1t">Des mesures fiables</h3>
+            <p data-i18n="br.1p">Étalonnages et constats de vérification réalisés en laboratoire de métrologie, avec les fondamentaux de l'évaluation des incertitudes et du VIM.</p>
+          </article>
+          <article class="bring__item reveal">
+            <span class="bring__n">2</span>
+            <svg class="pict draw" viewBox="0 0 64 64" aria-hidden="true">
+              <path d="M14 6 H 42 L 52 16 V 58 H 14 Z"/>
+              <path d="M42 6 V 16 H 52"/>
+              <path d="M22 28 H 44 M22 36 H 44 M22 44 H 36"/>
+            </svg>
+            <h3 class="card__title" data-i18n="br.2t">Des rapports clairs</h3>
+            <p data-i18n="br.2p">Des protocoles expérimentaux suivis avec rigueur et des comptes rendus techniques rédigés pour être compris et exploités.</p>
+          </article>
+          <article class="bring__item reveal">
+            <span class="bring__n">3</span>
+            <svg class="pict draw" viewBox="0 0 64 64" aria-hidden="true">
+              <path d="M6 12 H 40 V 34 H 20 L 12 42 V 34 H 6 Z"/>
+              <path d="M44 24 H 58 V 46 H 52 V 54 L 44 46 H 26 V 38"/>
+              <path d="M14 23 H 32"/>
+            </svg>
+            <h3 class="card__title" data-i18n="br.3t">Un anglais technique</h3>
+            <p data-i18n="br.3p">Un niveau bilingue certifié Cambridge, avec le vocabulaire scientifique de l'électricité, de l'électronique, de la chimie et de la physique.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===================== Parcours ===================== -->
+    <section class="section story" id="parcours">
+      <div class="wrap">
+        <header class="sec-head reveal">
+          <span class="sec-num">03</span>
+          <h2 class="sec-title" data-i18n="story.title">Parcours</h2>
+        </header>
+
+        <div class="story__rail" aria-hidden="true"><span></span></div>
+
+        <article class="chapter">
+          <div class="chapter__media reveal">
+            <div class="daynight" data-daynight>
+              <img src="assets/melh-jour.jpg" width="1200" height="1600" loading="lazy" alt="Le cloître de la Maison d'éducation de la Légion d'honneur, de jour" data-i18n-alt="story.alt1">
+              <img class="daynight__night" src="assets/melh-nuit.jpg" width="1800" height="1350" loading="lazy" alt="Les bâtiments de la Maison d'éducation de la Légion d'honneur, de nuit" data-i18n-alt="story.alt2">
+              <button class="daynight__toggle" type="button" aria-pressed="false">
+                <span data-i18n="story.day">Jour</span><span data-i18n="story.night">Nuit</span>
+              </button>
+            </div>
+          </div>
+          <div class="chapter__body reveal">
+            <p class="chapter__when"><span class="chapter__dot"></span>2022 – 2025 · Saint-Denis</p>
+            <h3 class="chapter__title" data-i18n="story.c1t">Maison d'éducation de la Légion d'honneur</h3>
+            <p data-i18n="story.c1p">Trois années dans un lieu chargé d'histoire, installé dans les bâtiments de l'ancienne abbaye royale de Saint-Denis. J'y obtiens le <strong>baccalauréat en section européenne avec la mention Très Bien</strong>, et j'y apprends la rigueur, l'autonomie et l'esprit critique face à un problème scientifique.</p>
+            <p class="hand" data-i18n="story.c1h">un lieu qui compte beaucoup pour moi</p>
+          </div>
+        </article>
+
+        <article class="chapter chapter--flip">
+          <div class="chapter__media reveal">
+            <div class="photo">
+              <img src="assets/telecom.jpg" width="812" height="288" loading="lazy" alt="Le bâtiment de Télécom Saint-Étienne" data-i18n-alt="story.alt3">
+              <img class="photo__logo" src="assets/telecom-logo.png" width="1000" height="1000" loading="lazy" alt="Logo de Télécom Saint-Étienne" data-i18n-alt="story.alt4">
+            </div>
+          </div>
+          <div class="chapter__body reveal">
+            <p class="chapter__when"><span class="chapter__dot"></span>2025 – 2027 · Saint-Étienne</p>
+            <h3 class="chapter__title" data-i18n="story.c2t">Télécom Saint-Étienne &amp; IUT de Saint-Étienne</h3>
+            <p data-i18n="story.c2p">J'intègre <strong>CITISE</strong>, la prépa intégrée de Télécom Saint-Étienne, menée en parallèle du <strong>BUT Mesures Physiques</strong> à l'IUT. Au programme&#8239;: métrologie, instrumentation, électronique, acquisition et traitement de données sous LabVIEW, travaux pratiques en autonomie comme en équipe, et rédaction de comptes rendus techniques.</p>
+          </div>
+        </article>
+
+        <article class="chapter chapter--next">
+          <div class="chapter__body chapter__body--wide reveal">
+            <p class="chapter__when"><span class="chapter__dot chapter__dot--open"></span><span data-i18n="story.c3w">Avril 2027 · votre entreprise&#8239;?</span></p>
+            <h3 class="chapter__title" data-i18n="story.c3t">Le prochain chapitre</h3>
+            <p data-i18n="story.c3p">Un stage de <strong>11 semaines</strong> à partir du <strong>12 avril 2027</strong>, en métrologie, physico-chimie, optique ou matériaux, à Saint-Étienne, à Lyon, en Île-de-France ou en Auvergne. Ce chapitre-là, j'aimerais l'écrire avec votre équipe.</p>
+            <p class="hand" data-i18n="story.c3h">à suivre…</p>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <!-- ===================== Constat de vérification ===================== -->
+    <section class="section check" id="constat">
+      <div class="wrap">
+        <header class="sec-head reveal">
+          <span class="sec-num">04</span>
+          <h2 class="sec-title" data-i18n="check.title">Constat de vérification</h2>
+        </header>
+        <div class="check__intro reveal">
+          <p class="check__big" data-i18n="check.big">Conforme ou pas&#8239;? Vérifiez vous-même.</p>
+          <p class="lead" data-i18n="check.lead">En projet de métrologie à l'IUT, j'ai réalisé des étalonnages et des constats de vérification d'instruments de mesure. Voici le raisonnement d'un constat, en version interactive&#8239;: changez les valeurs, le verdict se met à jour.</p>
+        </div>
+
+        <div class="sheet reveal" data-check>
+          <div class="sheet__head">
+            <div>
+              <p class="sheet__kicker" data-i18n="check.kicker">Constat de vérification</p>
+              <p class="sheet__ref mono">N° CRD-001</p>
+            </div>
+            <div class="presets" role="radiogroup" aria-label="Instrument" data-i18n-aria="check.instr">
+              <button type="button" role="radio" data-preset="caliper" aria-checked="true" data-i18n="check.p1">Pied à coulisse</button>
+              <button type="button" role="radio" data-preset="micrometer" aria-checked="false" data-i18n="check.p2">Micromètre</button>
+              <button type="button" role="radio" data-preset="balance" aria-checked="false" data-i18n="check.p3">Balance</button>
+            </div>
+          </div>
+
+          <div class="sheet__grid">
+            <div class="fields">
+              <div class="field field--static">
+                <span class="field__label" data-i18n="check.f0">Étalon de référence</span>
+                <span class="field__value" data-out="standard">Cale étalon 50 mm</span>
+              </div>
+              <label class="field">
+                <span class="field__label" data-i18n="check.f1">Valeur de référence R</span>
+                <span class="field__input"><input type="number" inputmode="decimal" data-in="ref"><span class="unit" data-out="unit">mm</span></span>
+              </label>
+              <label class="field">
+                <span class="field__label" data-i18n="check.f2">Indication de l'instrument I</span>
+                <span class="field__input"><input type="number" inputmode="decimal" data-in="ind"><span class="unit" data-out="unit">mm</span></span>
+              </label>
+              <input class="slider" type="range" data-in="slider" aria-label="Indication" data-i18n-aria="check.slider">
+              <label class="field">
+                <span class="field__label" data-i18n="check.f3">Erreur maximale tolérée (EMT) ±</span>
+                <span class="field__input"><input type="number" inputmode="decimal" min="0" data-in="emt"><span class="unit" data-out="unit">mm</span></span>
+              </label>
+              <label class="field">
+                <span class="field__label" data-i18n="check.f4">Incertitude élargie U (k = 2)</span>
+                <span class="field__input"><input type="number" inputmode="decimal" min="0" data-in="u"><span class="unit" data-out="unit">mm</span></span>
+              </label>
+            </div>
+
+            <div class="result">
+              <svg class="gauge" viewBox="0 0 400 128" role="img" aria-label="Position de l'erreur par rapport à l'EMT" data-i18n-aria="check.gauge">
+                <rect class="gauge__out" x="0" y="44" width="400" height="44" rx="6"/>
+                <rect class="gauge__ok" data-g="ok" x="100" y="44" width="200" height="44"/>
+                <rect class="gauge__guard" data-g="gl" x="100" y="44" width="20" height="44"/>
+                <rect class="gauge__guard" data-g="gr" x="280" y="44" width="20" height="44"/>
+                <line class="gauge__zero" x1="200" x2="200" y1="36" y2="96"/>
+                <line class="gauge__lim" data-g="ll" x1="100" x2="100" y1="30" y2="102"/>
+                <line class="gauge__lim" data-g="lr" x1="300" x2="300" y1="30" y2="102"/>
+                <text class="gauge__txt" data-g="tl" x="100" y="22" text-anchor="middle">−EMT</text>
+                <text class="gauge__txt" data-g="tr" x="300" y="22" text-anchor="middle">+EMT</text>
+                <text class="gauge__txt" x="200" y="22" text-anchor="middle">0</text>
+                <g class="gauge__marker" data-g="marker">
+                  <line class="gauge__bar" data-g="bar" x1="-20" x2="20" y1="66" y2="66"/>
+                  <line class="gauge__cap" data-g="capl" x1="-20" x2="-20" y1="58" y2="74"/>
+                  <line class="gauge__cap" data-g="capr" x1="20" x2="20" y1="58" y2="74"/>
+                  <circle class="gauge__dot" cx="0" cy="66" r="7"/>
+                  <text class="gauge__txt gauge__txt--e" x="0" y="118" text-anchor="middle">E ± U</text>
+                </g>
+              </svg>
+
+              <dl class="calc">
+                <div><dt data-i18n="check.r1">Erreur E = I − R</dt><dd class="mono" data-out="e">—</dd></div>
+                <div><dt data-i18n="check.r2">Pire cas |E| + U</dt><dd class="mono" data-out="worst">—</dd></div>
+                <div><dt data-i18n="check.r3">Meilleur cas |E| − U</dt><dd class="mono" data-out="best">—</dd></div>
+                <div><dt>EMT</dt><dd class="mono" data-out="emt">—</dd></div>
+              </dl>
+
+              <div class="verdict" data-out="verdict" data-state="ok" aria-live="polite">
+                <span class="stamp" data-out="stamp">Conforme</span>
+                <p class="verdict__why" data-out="why"></p>
+              </div>
+            </div>
+          </div>
+
+          <p class="sheet__foot" data-i18n="check.foot">Valeurs d'exemple. Règle de décision qui tient compte de l'incertitude, dans l'esprit de la norme ISO 14253-1&#8239;: conforme si |E| + U ≤ EMT, non conforme si |E| − U &gt; EMT, sinon on ne peut pas conclure.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===================== Projets ===================== -->
+    <section class="section projects" id="projets">
+      <div class="wrap">
+        <header class="sec-head reveal">
+          <span class="sec-num">05</span>
+          <h2 class="sec-title" data-i18n="proj.title">Projets</h2>
+        </header>
+
+        <div class="cards cards--2">
+          <article class="card project reveal">
+            <svg class="pict draw" viewBox="0 0 64 64" aria-hidden="true">
+              <path d="M8 14 H 58 V 22 H 8 Z"/>
+              <path d="M14 22 V 50 L 22 42 V 22"/>
+              <path d="M36 22 V 46 L 42 40 V 22"/>
+              <path d="M26 14 V 9 H 34 V 14"/>
+              <path d="M46 16 V 20 M50 16 V 20 M54 16 V 20 M12 16 V 19 M16 16 V 19 M20 16 V 19"/>
+            </svg>
+            <p class="project__meta"><span data-i18n="proj.kind">Projet de formation</span> · IUT de Saint-Étienne · <span data-i18n="proj.p1d">avril – juin 2026</span></p>
+            <h3 class="card__title" data-i18n="proj.p1t">Étalonnages et constats de vérification</h3>
+            <p data-i18n="proj.p1p">En laboratoire de métrologie, étalonnage d'instruments de mesure et constats de vérification&#8239;: analyse des résultats, respect des normes qualité et rédaction de rapports techniques.</p>
+            <ul class="tags">
+              <li data-i18n="proj.t1">Étalonnage</li><li data-i18n="proj.t2">Constat de vérification</li><li data-i18n="proj.t3">Normes qualité</li><li data-i18n="proj.t4">Rapport technique</li>
+            </ul>
+          </article>
+
+          <article class="card project reveal">
+            <svg class="pict draw" viewBox="0 0 64 64" aria-hidden="true">
+              <path d="M10 26 C 10 18, 16 16, 22 16 H 42 C 48 16, 54 18, 54 26 L 57 42 C 58 50, 50 52, 46 46 L 42 40 H 22 L 18 46 C 14 52, 6 50, 7 42 Z"/>
+              <path d="M20 24 V 32 M16 28 H 24"/>
+              <path d="M42 26 A 1.5 1.5 0 1 0 42.1 26 M47 31 A 1.5 1.5 0 1 0 47.1 31"/>
+              <path d="M34 4 H 54 V 12 H 40 L 36 15 V 12 H 34 Z"/>
+            </svg>
+            <p class="project__meta"><span data-i18n="proj.kind">Projet de formation</span> · IUT de Saint-Étienne · <span data-i18n="proj.p2d">mars – juin 2026</span></p>
+            <h3 class="card__title" data-i18n="proj.p2t">Un jeu vidéo pour apprendre l'anglais</h3>
+            <p data-i18n="proj.p2p">Développement en équipe d'un jeu vidéo éducatif&#8239;: logique de jeu et structure du code, game design et expérience utilisateur, résolution de problèmes techniques et gestion de projet.</p>
+            <ul class="tags">
+              <li data-i18n="proj.t5">Programmation</li><li>Game design</li><li data-i18n="proj.t6">Expérience utilisateur</li><li data-i18n="proj.t7">Gestion de projet</li>
+            </ul>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===================== Compétences ===================== -->
+    <section class="section skills" id="competences">
+      <div class="wrap">
+        <header class="sec-head reveal">
+          <span class="sec-num">06</span>
+          <h2 class="sec-title" data-i18n="sk.title">Compétences</h2>
+        </header>
+
+        <div class="cards cards--3">
+          <article class="card skill reveal">
+            <span class="skill__n mono">i</span>
+            <h3 class="card__title" data-i18n="sk.c1t">Métrologie et incertitudes</h3>
+            <p data-i18n="sk.c1p">Étalonnage, constats de vérification, fondamentaux de l'évaluation des incertitudes et du VIM.</p>
+          </article>
+          <article class="card skill reveal">
+            <span class="skill__n mono">ii</span>
+            <h3 class="card__title" data-i18n="sk.c2t">Instrumentation et LabVIEW</h3>
+            <p data-i18n="sk.c2p">À l'aise avec un large panel d'instruments de mesure&#8239;; acquisition et traitement de signaux sous LabVIEW.</p>
+          </article>
+          <article class="card skill reveal">
+            <span class="skill__n mono">iii</span>
+            <h3 class="card__title" data-i18n="sk.c3t">Électronique</h3>
+            <p data-i18n="sk.c3p">Conception et analyse de circuits électroniques et électriques.</p>
+          </article>
+          <article class="card skill reveal">
+            <span class="skill__n mono">iv</span>
+            <h3 class="card__title" data-i18n="sk.c4t">Analyse de données</h3>
+            <p data-i18n="sk.c4p">Interpréter des résultats, exploiter des mesures, vérifier leur cohérence et en tirer des conclusions fiables.</p>
+          </article>
+          <article class="card skill reveal">
+            <span class="skill__n mono">v</span>
+            <h3 class="card__title" data-i18n="sk.c5t">Méthode expérimentale</h3>
+            <p data-i18n="sk.c5p">Démarches de test, de mesure et de validation, protocoles rigoureux, comptes rendus techniques.</p>
+          </article>
+          <article class="card skill reveal">
+            <span class="skill__n mono">vi</span>
+            <h3 class="card__title" data-i18n="sk.c6t">Logique algorithmique</h3>
+            <p data-i18n="sk.c6p">Comprendre et écrire du code, structurer un programme, automatiser des tâches, traiter des données.</p>
+          </article>
+        </div>
+
+        <div class="langs reveal">
+          <h3 class="langs__title" data-i18n="lg.title">Langues</h3>
+          <div class="lang-row">
+            <div class="lang-row__name"><strong data-i18n="lg.en">Anglais</strong><span data-i18n="lg.enl">Bilingue · Certification Cambridge</span></div>
+            <div class="scale" style="--lvl:6" aria-hidden="true"><i></i><i></i><i></i><i></i><i></i><i></i></div>
+            <p class="lang-row__note" data-i18n="lg.enn">Écrit et oral professionnels, avec le vocabulaire scientifique de l'électricité, de l'électronique, de la chimie et de la physique.</p>
+          </div>
+          <div class="lang-row">
+            <div class="lang-row__name"><strong data-i18n="lg.es">Espagnol</strong><span data-i18n="lg.esl">Écrit C1 · Oral B2</span></div>
+            <div class="scale" style="--lvl:5" aria-hidden="true"><i></i><i></i><i></i><i></i><i></i><i></i></div>
+            <p class="lang-row__note" data-i18n="lg.esn">Capable de communiquer aisément dans un cadre professionnel.</p>
+          </div>
+          <p class="scale-legend mono" aria-hidden="true"><span>A1</span><span>A2</span><span>B1</span><span>B2</span><span>C1</span><span>C2</span></p>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===================== Au-delà du labo ===================== -->
+    <section class="section beyond" id="passions">
+      <div class="wrap">
+        <header class="sec-head reveal">
+          <span class="sec-num">07</span>
+          <h2 class="sec-title" data-i18n="bd.title">Au-delà du labo</h2>
+        </header>
+
+        <div class="sketches">
+          <article class="sketch reveal">
+            <svg class="sketch__art draw" viewBox="0 0 120 120" aria-hidden="true">
+              <path d="M30 92 L 84 22 L 96 31 L 42 101 L 27 106 Z"/>
+              <path d="M30 92 L 42 101"/>
+              <path d="M78 30 L 90 39"/>
+              <path d="M14 112 C 34 104, 50 116, 70 108 S 98 104, 108 110"/>
+            </svg>
+            <h3 class="sketch__title" data-i18n="bd.1t">Le dessin</h3>
+            <p data-i18n="bd.1p">Mon temps libre a souvent un crayon à la main. Le dessin m'apprend l'observation, la patience et le sens du détail&#8239;: trois qualités qui servent aussi au laboratoire.</p>
+          </article>
+
+          <article class="sketch reveal">
+            <svg class="sketch__art draw" viewBox="0 0 120 120" aria-hidden="true">
+              <path d="M14 24 C 30 18, 48 18, 62 24 C 62 50, 54 70, 38 74 C 22 70, 14 50, 14 24 Z"/>
+              <path d="M26 40 C 28 37, 32 37, 34 40 M42 40 C 44 37, 48 37, 50 40 M28 56 C 34 62, 42 62, 48 56"/>
+              <path d="M58 46 C 74 40, 92 40, 106 46 C 106 72, 98 92, 82 96 C 66 92, 58 72, 58 46 Z"/>
+              <path d="M70 62 C 72 65, 76 65, 78 62 M86 62 C 88 65, 92 65, 94 62 M72 84 C 78 78, 86 78, 92 84"/>
+            </svg>
+            <h3 class="sketch__title" data-i18n="bd.2t">Le théâtre</h3>
+            <p data-i18n="bd.2p">Plus jeune, j'ai fait du théâtre et j'ai adoré ça. On y apprend à prendre la parole, à écouter les autres et à avancer en troupe.</p>
+          </article>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- ===================== Contact ===================== -->
+    <section class="contact" id="contact">
+      <div class="wrap contact__inner">
+        <p class="eyebrow eyebrow--light reveal" data-i18n="ct.eyebrow">Contact</p>
+        <h2 class="contact__title reveal" data-i18n="ct.title">Écrivons la suite <em>ensemble</em>.</h2>
+        <p class="contact__lead reveal" data-i18n="ct.lead">Stage de 11 semaines à partir du 12 avril 2027 · Saint-Étienne, Lyon, <span class="nw">Île-de-France</span> ou Auvergne.</p>
+        <div class="contact__actions reveal">
+          <a class="btn btn--gold" href="mailto:camille.duglery@gmail.com">
+            <svg viewBox="0 0 24 24" aria-hidden="true"><rect x="3" y="5.5" width="18" height="13" rx="2.5"/><path d="m4 7.5 8 6 8-6"/></svg>
+            camille.duglery@gmail.com
+          </a>
+          <button class="btn btn--line" type="button" data-copy="camille.duglery@gmail.com">
+            <span data-i18n="ct.copy">Copier l'adresse</span>
+          </button>
+        </div>
+        <ul class="contact__links reveal">
+          <li><a href="https://www.linkedin.com/in/camille-reyt-duglery-b63a62316" target="_blank" rel="noopener">LinkedIn ↗</a></li>
+          <li><a href="assets/CV_Reyt-Duglery_Camille.pdf" download><span data-i18n="ct.cv">CV en PDF</span> ↓</a></li>
+          <li><button type="button" data-print><span data-i18n="ct.print">Version imprimable</span> ⎙</button></li>
+        </ul>
+      </div>
+      <footer class="footer">
+        <div class="wrap footer__inner">
+          <span>© 2026 Camille Reyt-Duglery</span>
+          <a href="#accueil" data-i18n="ft.top">Haut de page ↑</a>
+        </div>
+      </footer>
+    </section>
+
+  </main>
+
+  <!-- Fiche d'une page, visible seulement à l'impression -->
+  <article class="printsheet" aria-hidden="true">
+    <header class="ps-head">
+      <img class="ps-photo" src="assets/camille.jpg" alt="">
+      <div>
+        <p class="ps-first">Camille</p>
+        <p class="ps-last">Reyt-Duglery</p>
+        <p class="ps-role" data-i18n="hero.role">Future ingénieure · métrologie, optique, matériaux</p>
+      </div>
+    </header>
+    <p class="ps-band" data-i18n="hero.band">Recherche un stage de <strong>11 semaines</strong> à partir du <strong>12 avril 2027</strong></p>
+    <p class="ps-domains" data-i18n="ps.domains">Métrologie · Physico-chimie · Optique · Matériaux — Saint-Étienne, Lyon, Île-de-France ou Auvergne</p>
+
+    <div class="ps-cols">
+      <div class="ps-main">
+        <h2 data-i18n="about.title">À propos</h2>
+        <p data-i18n="ps.about">Étudiante en deuxième année du double cursus CITISE (Télécom Saint-Étienne) et BUT Mesures Physiques, rigoureuse, curieuse et créative. J'aime les environnements techniques exigeants et le travail en équipe.</p>
+
+        <h2 data-i18n="ps.edu">Formation</h2>
+        <div class="ps-entry"><p class="ps-t" data-i18n="ps.e1t">CITISE (prépa intégrée) + BUT Mesures Physiques</p><p class="ps-m">Télécom Saint-Étienne · IUT de Saint-Étienne · 2025 – 2027</p></div>
+        <div class="ps-entry"><p class="ps-t" data-i18n="ps.e2t">Baccalauréat section européenne, mention Très Bien</p><p class="ps-m">Maison d'éducation de la Légion d'honneur, Saint-Denis · 2022 – 2025</p></div>
+
+        <h2 data-i18n="proj.title">Projets</h2>
+        <div class="ps-entry"><p class="ps-t" data-i18n="proj.p1t">Étalonnages et constats de vérification</p><p class="ps-m"><span data-i18n="proj.kind">Projet de formation</span> · IUT · <span data-i18n="proj.p1d">avril – juin 2026</span></p><p data-i18n="proj.p1p">En laboratoire de métrologie, étalonnage d'instruments de mesure et constats de vérification&#8239;: analyse des résultats, respect des normes qualité et rédaction de rapports techniques.</p></div>
+        <div class="ps-entry"><p class="ps-t" data-i18n="proj.p2t">Un jeu vidéo pour apprendre l'anglais</p><p class="ps-m"><span data-i18n="proj.kind">Projet de formation</span> · IUT · <span data-i18n="proj.p2d">mars – juin 2026</span></p><p data-i18n="proj.p2p">Développement en équipe d'un jeu vidéo éducatif&#8239;: logique de jeu et structure du code, game design et expérience utilisateur, résolution de problèmes techniques et gestion de projet.</p></div>
+
+        <h2 data-i18n="br.title">Ce que j'apporte</h2>
+        <ul class="ps-list">
+          <li><strong data-i18n="br.1t">Des mesures fiables</strong></li>
+          <li><strong data-i18n="br.2t">Des rapports clairs</strong></li>
+          <li><strong data-i18n="br.3t">Un anglais technique</strong></li>
+        </ul>
+      </div>
+
+      <aside class="ps-side">
+        <h2>Contact</h2>
+        <p>camille.duglery@gmail.com</p>
+        <p>linkedin.com/in/camille-reyt-duglery-b63a62316</p>
+
+        <h2 data-i18n="sk.title">Compétences</h2>
+        <ul class="ps-list">
+          <li data-i18n="sk.c1t">Métrologie et incertitudes</li>
+          <li data-i18n="sk.c2t">Instrumentation et LabVIEW</li>
+          <li data-i18n="sk.c3t">Électronique</li>
+          <li data-i18n="sk.c4t">Analyse de données</li>
+          <li data-i18n="sk.c5t">Méthode expérimentale</li>
+          <li data-i18n="sk.c6t">Logique algorithmique</li>
+        </ul>
+
+        <h2 data-i18n="lg.title">Langues</h2>
+        <p><strong data-i18n="lg.en">Anglais</strong> · <span data-i18n="lg.enl">Bilingue · Certification Cambridge</span></p>
+        <p><strong data-i18n="lg.es">Espagnol</strong> · <span data-i18n="lg.esl">Écrit C1 · Oral B2</span></p>
+
+        <h2 data-i18n="bd.title">Au-delà du labo</h2>
+        <p data-i18n="ps.beyond">Dessin, théâtre</p>
+
+        <div class="ps-qr">
+          <img src="assets/qr.svg" alt="">
+          <p><span data-i18n="ps.qr">Le site interactif</span><br><a href="https://camille-reyt-duglery.github.io" data-site="link">camille-reyt-duglery.github.io</a></p>
+        </div>
+      </aside>
+    </div>
+  </article>
+
+  <div class="toast" role="status" aria-live="polite"></div>
+  <script src="main.js"></script>
+</body>
+</html>
